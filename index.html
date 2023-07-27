@@ -39,8 +39,8 @@
 <body class="font-lato">
     <header class=" lg:p-32">
         <nav>
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
+            <div class="navbar bg-base-100 lg:bg-[#F85559] lg:text-white rounded-full">
+                <div class="navbar-center">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -51,24 +51,29 @@
                         </label>
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Item 1</a></li>
-                            <li><a>Item 3</a></li>
-                            <li><a>Item 3</a></li>
-                            <li><a>Item 3</a></li>
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+                    
                 </div>
-                <div class="navbar-center hidden lg:flex">
+                <div class="navbar-start hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a>Item 1</a></li>
-                        <li><a>Item 1</a></li>
-                        <li><a>Item 1</a></li>                       
-                        <li><a>Item 3</a></li>
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>                       
+                        <li><a>All Fruits</a></li>
                     </ul>
                 </div>
-                <div class="navbar-end">
-                    <a class="btn">Button</a>
+                <img src="images/logo.png" alt="">
+                <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+                <div class="navbar-end  invisible lg:visible   ">
+                    <input type="text" placeholder="Search here" 
+                    class="rounded-full border-none input input-bordered input-secondery w-full max-w-xs">
+                    <i class="fa-solid text-black pr-10 absolute fa-magnifying-glass"></i>
+                    
                 </div>
             </div>
         </nav>
